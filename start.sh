@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x
 
 if [ -z "$DOMAINS" ] ; then
   echo "No domains set, please fill -e 'DOMAINS=example.com www.example.com'"
